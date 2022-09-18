@@ -196,6 +196,8 @@ button {
 
 .grid-col--2 {
   grid-template-columns: 1fr 2fr;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .title-about h2 {
@@ -263,7 +265,9 @@ button {
 /* projects */
 
 .grid-col--3 {
-  grid-template-columns: 318px 1fr 318px;
+  grid-template-columns: 330px 1fr 330px;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .title {
@@ -319,7 +323,7 @@ button {
 
 .project-1,
 .project-4 {
-  height: 318px;
+  height: 330px;
   width: auto;
   display: flex;
   justify-content: center;
@@ -341,8 +345,8 @@ button {
 .project-3,
 .project-6,
 .project-5 {
-  height: 318px;
-  width: 318px;
+  height: 330px;
+  width: 330px;
   box-shadow: 0 5px 15px #e1e1e1;
   display: flex;
   justify-content: center;
@@ -384,11 +388,11 @@ button {
 }
 .project-2:hover {
   background-image: url("img/portfolio-small.jpg");
-  background-size: 318px 318px;
+  background-size: 330px 330px;
 }
 .project-3:hover {
   background-image: url("img/to-do--mini.jpg");
-  background-size: 318px 318px;
+  background-size: 330px 330px;
 }
 .project-4:hover {
   background-image: url("img/goal-net.jpg");
@@ -401,14 +405,14 @@ button {
 
 .project-6:hover {
   background-image: url("img/maria-heart-ilu.jpg");
-  background-size: 318px 318px;
+  background-size: 330px 330px;
 }
 
 .project-1--img,
 .project-2--img,
 .project-3--img {
   display: flex;
-  height: 318px;
+  height: 330px;
   justify-content: center;
   padding: 5rem;
 }
@@ -425,7 +429,7 @@ button {
 .project-title {
   font-size: 1.9rem;
   display: flex;
-  height: 318px;
+  height: 330px;
   justify-content: center;
   align-items: center;
 }
@@ -467,6 +471,16 @@ button {
   border-radius: 50%;
 }
 
+.contact-link:link,
+.contact-link:visited {
+  color: var(--color-hover);
+}
+
+.contact-link:active,
+.contact-link:hover {
+  color: #b6bfc2;
+}
+
 /* *************** */
 /* footer */
 
@@ -478,7 +492,8 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 6.6rem 0 6.6rem;
+  /* padding: 3rem 6.6rem 0 6.6rem; */
+  padding: 3rem 5.6rem 0 5.6rem;
 }
 
 .copyright {
