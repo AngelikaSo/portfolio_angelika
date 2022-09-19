@@ -1,3 +1,9 @@
+@media (max-width: 76em) {
+  .hero-text h1 {
+    font-size: 2.6rem;
+  }
+}
+
 /************************/
 /* small laptop */
 @media (max-width: 64em) {
@@ -10,7 +16,7 @@
   }
 
   .hero-text h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   p {
