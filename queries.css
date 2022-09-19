@@ -9,6 +9,10 @@
     grid-template-columns: 100px 1fr 100px;
   }
 
+  .hero-text h1 {
+    font-size: 3.2rem;
+  }
+
   p {
     font-size: 1.5rem;
   }
@@ -85,6 +89,10 @@
 @media (max-width: 48em) {
   html {
     font-size: 60%;
+  }
+
+  #Layer_1 {
+    width: 1.9rem;
   }
 
   .grid-col--flex {
@@ -289,10 +297,6 @@
   .five {
     grid-column: 1/ 3;
     grid-row: 7/ 8;
-  }
-
-  #Layer_2 {
-    width: 1.6rem;
   }
 
   .footer-nav--div {
