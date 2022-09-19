@@ -57,6 +57,16 @@ h3 {
   font-weight: 800;
 }
 
+a .link-style:link,
+a .link-style:visited {
+  transition: all 0.3s;
+}
+
+a .link-style:hover,
+a .link-style:active {
+  color: #b6bfc2;
+}
+
 .img-project {
   /* display: flex; */
   grid-column: 2 / 3;
@@ -68,4 +78,8 @@ h3 {
   width: 100%;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.149);
   border-radius: 20px;
+}
+
+.project-description ul li {
+  list-style-type: circle;
 }
