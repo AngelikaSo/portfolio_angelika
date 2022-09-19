@@ -72,6 +72,20 @@ allLinks.forEach(function (link) {
       window.open("project-6.html");
     if (href !== "#" && href.startsWith("img/Angelika Sowka CV.pdf"))
       window.open("img/Angelika Sowka CV.pdf");
+    if (href !== "#" && href.startsWith("https://www.linkedin.com/in/angsow/"))
+      window.open("https://www.linkedin.com/in/angsow/");
+
+    if (href !== "#" && href.startsWith("https://github.com/AngelikaSo"))
+      window.open("https://github.com/AngelikaSo");
+
+    if (href !== "#" && href.startsWith("https://codepen.io/your-work/"))
+      window.open("https://codepen.io/your-work/");
+
+    if (
+      href !== "#" &&
+      href.startsWith("https://www.behance.net/sowkaangel5b24")
+    )
+      window.open("https://www.behance.net/sowkaangel5b24");
 
     // close mobile navigation
     if (link.classList.contains("main-nav--link"))
