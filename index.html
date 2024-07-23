@@ -12,30 +12,25 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=0"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Archivo+Black&family=Bebas+Neue&family=Chonburi&family=Kanit:wght@600;700;800;900&family=Oswald:wght@700&family=Secular+One&display=swap"
       rel="stylesheet"
     />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&family=Rubik+Mono+One&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="queries.css" />
     <link rel="stylesheet" href="pages.css" />
-
     <link rel="" href="project-1.html" />
     <link rel="" href="project-2.html" />
     <link rel="" href="project-3.html" />
     <link rel="" href="project-4.html" />
     <link rel="" href="project-5.html" />
     <link rel="" href="project-6.html" />
-
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -44,12 +39,10 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-
     <script
       defer
       src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
     ></script>
-
     <script type="module" defer src="main.js"></script>
     <title>Angelika Sowka &mdash; portfolio</title>
   </head>
@@ -89,28 +82,16 @@
                   points="161.97 333.03 207.15 333 243.04 260.96 198.5 260.67 161.97 333.03"
                 />
               </svg>
-              <!-- <p>Angelika Sowka</p> -->
             </a>
           </div>
           <nav class="main-nav">
             <ul class="main-nav--list">
-              <li><a class="main-nav--link" href="#"">Home</a></li>
+              <li><a class="main-nav--link" href="#">Home</a></li>
               <li><a class="main-nav--link" href="#about">About</a></li>
               <li>
                 <a class="main-nav--link" href="#work">Projects</a>
               </li>
               <li><a class="main-nav--link" href="#contact">Contact</a></li>
-
-              <!-- <div class="resume-btn">
-                <a
-                  class="main-nav--link resume"
-                  id="resume"
-                  href="img/Angelika Sowka CV.pdf"
-                  download=""
-                  ><span class="nav-text">Resume</span>
-                  <ion-icon name="cloud-download-outline"></ion-icon
-                ></a>
-              </div> -->
             </ul>
           </nav>
         </div>
@@ -122,16 +103,22 @@
     </header>
     <main>
       <section class="home section-home" id="home">
+        <marquee
+          behavior="scroll"
+          scrollamount="3"
+          loop="'"
+          class="hero-introduction"
+        >
+          Hi there! I am <b>Angelika</b> - Junior Frontend Developer, and
+          Graphic Designer.
+        </marquee>
         <div class="container grid grid-1fr--1fr">
           <div class="hero-text">
             <h1>
-              Hi,<br />
-              I am <span>Angelika Sowka</span><br />
-              Junior Frontend Developer,<br />
-              and Graphic Designer
+              From pixels to &lt;code/&gt;, weaving creativity into seamless
+              digital experiences.
             </h1>
           </div>
-
           <div class="hero-img">
             <img src="img/hero-ilu-1.svg" />
           </div>
@@ -142,19 +129,20 @@
           <div class="tittle-about--container title-about">
             <h2>about me</h2>
           </div>
-
           <div class="about-img">
             <img src="img/about.svg" />
           </div>
-
           <div class="about-text">
             <p>
-              
-I am a self-motivated, creative, and ambitious person. I have graduated in the Graphic Arts and Design field at the Pedagogical University in Krakow (Poland) - currently residing in Montreal (Canada). I am passionate about design and front-end development, and tend to constantly learn new things in these fields. I work in HTML5, JavaScript, and CSS3, and continue to improve myself by creating my own projects. I am a communicative and easily approachable person, able to work in a team as well as on my own. I am interested in planning, technology, psychology, and culture. In my work I aim to develop my coding and designing skills in order to help clients accomplish their goals. I put a strong emphasis on the importance of well planned and executed user experience in the finalized product. If you would like to know more,
-              <a href="#contact" class="contact-link">let’s talk!</a>
+              I’m a Graphic Arts and Design grad now diving into front-end
+              development in Montreal. I thrive on solving challenges and
+              exploring new technologies to create seamless user experiences.
+              With a knack for effective communication and a curiosity-driven
+              approach, I'm eager to collaborate and grow.
+              <a href="#contact" class="contact-link">Let’s chat</a> about how I
+              can help achieve your goals!
             </p>
           </div>
-
           <div class="list-links">
             <ul class="links">
               <li>
@@ -168,11 +156,6 @@ I am a self-motivated, creative, and ambitious person. I have graduated in the G
                 ></a>
               </li>
               <li>
-                <a href="https://codepen.io/your-work/" class="links-li"
-                  ><ion-icon name="logo-codepen"></ion-icon
-                ></a>
-              </li>
-              <li>
                 <a
                   href="https://www.behance.net/sowkaangel5b24"
                   class="links-li"
@@ -183,7 +166,6 @@ I am a self-motivated, creative, and ambitious person. I have graduated in the G
           </div>
         </div>
       </section>
-
       <section class="section-projects" id="work">
         <div class="container grid grid-col--3">
           <div class="title">
@@ -222,18 +204,17 @@ I am a self-motivated, creative, and ambitious person. I have graduated in the G
           </figure>
         </div>
       </section>
-
       <section class="contact section-contact" id="contact">
         <div class="container grid grid-col--1">
           <div class="contact-text">
             <h2>let's talk</h2>
             <div class="contact-mobile">
               <p class="contact-description">
-                Feel free to reach out if you are interested in working
-                together, or have any questions.
+                Connect with me via email for any inquiries or collaboration
+                opportunities!
               </p>
               <p class="second-p">
-                Please contact by email <span>sowkaangelika@gmail.com</span>
+                <span>sowkaangelika@gmail.com</span>
               </p>
             </div>
           </div>
@@ -279,7 +260,6 @@ I am a self-motivated, creative, and ambitious person. I have graduated in the G
                   points="161.97 333.03 207.15 333 243.04 260.96 198.5 260.67 161.97 333.03"
                 />
               </svg>
-              <!-- <p>Angelika Sowka</p> -->
             </a>
           </div>
           <div class="footer-main--nav">
@@ -292,16 +272,6 @@ I am a self-motivated, creative, and ambitious person. I have graduated in the G
               <li><a class="footer-nav--link" href="#contact">Contact</a></li>
             </ul>
           </div>
-          <!-- <div class="footer-resume--btn">
-            <a
-              class="footer-nav--link resume"
-              id="resume"
-              href="img/Angelika Sowka CV.pdf"
-              download=""
-              ><span class="nav-text">Resume</span>
-              <ion-icon name="cloud-download-outline"></ion-icon
-            ></a>
-          </div> -->
         </div>
         <div class="copy-div">
           <p class="copyright">
