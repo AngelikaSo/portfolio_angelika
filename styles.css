@@ -7,7 +7,6 @@
 html {
   font-family: var(--font-paragraf);
   overflow-x: hidden;
-  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -229,11 +228,9 @@ button {
 .about-img {
   grid-column: 1 / 2;
   grid-row: 2/ 3;
-  /* height: 30rem; */
 }
 
 .about-img img {
-  /* height: 70%; */
   width: auto;
   display: flex;
   justify-content: center;
@@ -344,7 +341,6 @@ button {
   display: flex;
   justify-content: center;
   box-shadow: 0 5px 15px #e1e1e1;
-  /* transition: transform 0.5s; */
   text-decoration: none;
   color: var(--text-color);
 
@@ -369,7 +365,6 @@ button {
 
   text-decoration: none;
   color: var(--text-color);
-  /* transition: transform 0.5s; */
   transition-timing-function: ease-in-out;
   -webkit-transition: all 0.9s;
   -moz-transition: all 0.9s;
@@ -408,7 +403,6 @@ button {
 }
 .project-3:hover {
   background-image: url("img/to-do--mini.jpg");
-  /* background-image: url("img/to-do.jpg"); */
   background-size: 330px 330px;
 }
 .project-4:hover {
@@ -421,7 +415,6 @@ button {
 }
 
 .project-6:hover {
-  /* background-image: url("img/maria-heart-ilu.jpg"); */
   background-image: url("img/maria-heart-ilu.jpg");
   background-size: 330px 330px;
 }
@@ -509,7 +502,6 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 3rem 6.6rem 0 6.6rem; */
   padding: 3rem 5.6rem 0 5.6rem;
 }
 
@@ -549,16 +541,5 @@ button {
 .footer-resume--btn .resume {
   padding: 0.5rem 1rem;
   background-color: #eeeeee;
-  /* border: 2px solid #b6bfc2; */
   border-radius: 0.2rem;
 }
-
-/* .footer-resume--btn .resume:link,
-.footer-resume--btn .resume:visited {
-  transition: all 0.3s;
-}
-
-.footer-resume--btn .resume:hover,
-.footer-resume--btn .resume:active {
-  box-shadow: inset 0 0 0 1px #52a9b1;
-} */
