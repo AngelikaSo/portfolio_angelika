@@ -409,10 +409,45 @@ button {
   display: none;
 }
 
+/*
 .project-1:hover {
   background-image: url("img/landing-page.jpg");
   background-size: cover;
+}*/
+
+.project-1 {
+  position: relative;
+  display: block;
+  height: 330px;
+  overflow: hidden;
 }
+
+.project-1--video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s;
+  z-index: 99;
+}
+
+.project-1--video {
+  opacity: 0;
+  pointer-events: none;
+  z-index: 999;
+}
+
+.project-1:hover .project-1--video {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.project-1:hover {
+  opacity: 0;
+}
+
 .project-2:hover {
   background-image: url("img/portfolio-small.jpg");
   background-size: cover;

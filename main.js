@@ -72,8 +72,11 @@ allLinks.forEach(function (link) {
       window.open("project-6.html");
     if (href !== "#" && href.startsWith("img/Angelika Sowka CV.pdf"))
       window.open("img/Angelika Sowka CV.pdf");
-    if (href !== "#" && href.startsWith("https://www.linkedin.com/in/angsow/"))
-      window.open("https://www.linkedin.com/in/angsow/");
+    if (
+      href !== "#" &&
+      href.startsWith("https://www.linkedin.com/in/angelikasowka/")
+    )
+      window.open("https://www.linkedin.com/in/angelikasowka/");
 
     if (href !== "#" && href.startsWith("https://github.com/AngelikaSo"))
       window.open("https://github.com/AngelikaSo");
