@@ -351,7 +351,7 @@ button {
 }
 
 .project-1,
-.project-4 {
+.project-7 {
   height: 330px;
   width: auto;
   display: flex;
@@ -371,6 +371,7 @@ button {
 
 .project-2,
 .project-3,
+.project-4,
 .project-6,
 .project-5 {
   height: 330px;
@@ -395,7 +396,8 @@ button {
 .project-3:hover,
 .project-4:hover,
 .project-5:hover,
-.project-6:hover {
+.project-6:hover,
+.project-7:hover {
   transform: scale(0.95);
 
   background-repeat: no-repeat;
@@ -403,6 +405,7 @@ button {
 .project-1:hover p,
 .project-4:hover p,
 .project-5:hover p,
+.project-7:hover p,
 .project-2:hover img,
 .project-3:hover img,
 .project-6:hover img {
@@ -436,9 +439,15 @@ button {
   background-size: 330px 330px;
 }
 
+.project-7:hover {
+  background-image: url("img/behance-projects.JPG");
+  background-size: cover;
+}
+
 .project-1--img,
 .project-2--img,
-.project-3--img {
+.project-3--img,
+.project-7--img {
   display: flex;
   height: 330px;
   justify-content: center;
