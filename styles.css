@@ -460,6 +460,7 @@ button {
   height: 330px;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 /* *************** */
