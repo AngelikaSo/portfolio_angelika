@@ -373,7 +373,8 @@ button {
 .project-3,
 .project-4,
 .project-6,
-.project-5 {
+.project-5,
+.project-8 {
   height: 330px;
   width: 330px;
   box-shadow: 0 5px 15px #e1e1e1;
@@ -389,6 +390,10 @@ button {
   -ms-transition: all 0.9s;
 
   transition: all 0.9s;
+}
+
+.project-8 {
+  position: relative;
 }
 
 .project-1:hover,
@@ -444,14 +449,37 @@ button {
   background-size: cover;
 }
 
+.project-8:hover {
+  background-image: none;
+}
+
+.project-8:hover::after {
+  content: "React App";
+  background-color: white;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 1.9rem;
+}
+
 .project-1--img,
 .project-2--img,
 .project-3--img,
-.project-7--img {
+.project-7--img,
+.project-8--img {
   display: flex;
   height: 330px;
   justify-content: center;
   padding: 5rem;
+}
+
+.project-8--img {
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  object-fit: contain;
 }
 
 .project-1--img {
